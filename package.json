@@ -9,12 +9,19 @@
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
     "add": "lerna add",
-    "clean": "lerna clean"
+    "clean": "lerna clean",
+    "commit": "git-cz"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0",
     "lerna": "^3.20.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
