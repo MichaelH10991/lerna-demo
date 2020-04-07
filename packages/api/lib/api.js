@@ -1,7 +1,9 @@
-'use strict';
+"use strict"
+const express = require("express")
+const PORT = 8080
 
-module.exports = api;
+const app = express()
 
-function api() {
-    // TODO
-}
+app.listen(PORT, console.log(`app listenin on port ${PORT}`))
+
+module.exports = app
