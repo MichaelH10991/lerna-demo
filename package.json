@@ -1,0 +1,17 @@
+{
+  "name": "lerna-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "lerna create",
+    "test": "lerna run test --scope{ yeet }",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
