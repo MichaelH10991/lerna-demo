@@ -8,4 +8,6 @@ run `npx lerna --help` for list of learna commands
 
 `npm run create <package_name>`
 
-##
+## To run tests
+
+`npm run test`
